@@ -96,6 +96,10 @@ body {
 .publication-entry .pub-links a { margin-right: 8px; }
 .publication-entry > div:not(.pub-left) { flex: 1; text-align: justify; text-justify: inter-word; }
 
+/* Match paragraph line-height in About Me */
+.publication-entry,
+.publication-entry > div:not(.pub-left) { line-height: 1.3; }
+
 p { text-align: justify; text-justify: inter-word; }
 #layout-content ul li, #layout-content ol li { text-align: justify; text-justify: inter-word; }
 #layout-content ul li i, #layout-content ol li i { text-align: left; display: inline; }
@@ -239,7 +243,7 @@ p + ol {
 	margin-top: -0.5em;
 }
 li {
-	margin-top: 0.9em;
+	margin-top: 0.9em; line-height: 1.3;
 }
 ol {
 	list-style-type: decimal; list-style-position: outside;
