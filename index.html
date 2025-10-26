@@ -1,167 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jiahan (Han) Zhang</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="icon" href="assets/favicon.png">
-    <meta name="description" content="Jiahan (Han) Zhang — Computer Vision, Multimodal Learning, World Models.">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="IE=5.0000" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Jiahan (Han) Zhang's home page">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+    <link href="./profile.css" rel="stylesheet" type="text/css">
+    <title>Jiahan (Han) Zhang's Homepage</title>
+    <meta name="GENERATOR" content="MSHTML 11.00.10570.1001">
 </head>
+
 <body>
-    <header class="site-header">
-        <div class="nav container">
-            <a class="brand" href="#top">Jiahan (Han) Zhang</a>
+
+
+    <div id="layout-content" class="container">
+        <div class="top-section">
+            <div class="maxw-70">
+                <h1 id="jiahan-han-zhang">Jiahan (Han) Zhang</h1>
+                <span class="emoji">🎓</span> Master’s student in Computer Science
+
+                <p class="mb-04">
+                    <span class="emoji">🏛️</span>
+                    Johns Hopkins University
+                </p>
+                <!-- location intentionally omitted as not specified in content -->
+
+                <div class="contact-box">
+                    <img src="assets/imgs/envelope.png" alt="Email">
+                    <a href="mailto:jhanzhang01@gmail.com">jhanzhang01@gmail.com</a>
+
+                    <img src="assets/imgs/google.png" alt="Google Scholar">
+                    <a href="https://scholar.google.com/citations?user=lUlcGxIAAAAJ&hl=en" target="_blank">Google Scholar</a>
+
+                    <img src="assets/imgs/github.png" alt="GitHub">
+                    <a href="https://github.com/vanillaer" target="_blank">GitHub</a>
+
+                    
+                </div>
+            </div>
+            <div>
+                <img class="profile-pic" src="assets/media/profile_img.png" alt="Profile">
+            </div>
         </div>
-    </header>
 
-    <main id="top">
-        <section class="hero container" id="about">
-            <div class="hero-grid">
-                <div class="hero-photo">
-                    <img src="assets/media/profile_img.png" alt="Profile photo placeholder" />
-                </div>
-                <div class="hero-text">
-                    <h1>Jiahan (Han) Zhang</h1>
-                    <p class="intro" style="text-align: justify;">I am a Master's student in Computer Science at Johns Hopkins University. Currently, I am interested in developing world models and generative models for embodied agents, as well as robustness and multimodal learning. Previously, I worked on adversarial robustness for large multimodal models and weakly supervised adaptation of VLMs.</p>
-                    <div class="hero-actions">
-                        <a class="btn primary" href="mailto:jhanzhang01@gmail.com">Email</a>
-                        <a class="btn" href="https://github.com/vanillaer" target="_blank" rel="noreferrer">GitHub</a>
-                        <a class="btn" href="https://scholar.google.com/citations?user=lUlcGxIAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
-                        <a class="btn" href="https://www.linkedin.com/in/jiahan-zhang-9039bb213/" target="_blank" rel="noreferrer">LinkedIn</a>
+    
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+I am a Master’s student in Computer Science at Johns Hopkins University. I have been fortunate to collaborate with Prof. <a href="https://scholar.google.com/citations?user=KomQOFkAAAAJ&hl=zh-CN&oi=ao">Lei Feng</a> at Southeast University, Prof. <a href="https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=en">Alan Yuille</a> and Ph.D. candidate <a href="https://scholar.google.com/citations?hl=en&user=yLYj88sAAAAJ">Jieneng Chen</a> at Johns Hopkins University.
+            </p>
+At present, I focus on integrating richer real-world knowledge into generative models.  Earlier, I worked on adversarial robustness and weakly supervised learning for large multimodal models, which laid the groundwork for my current research. 
+            </p>
+
+            <h2>Research Interests</h2>
+            <p>
+            My research focuses on scalable world models and generative models for embodied agents. I am especially interested in:
+            </p>
+
+            <ul>
+                <li>
+                    <i>How should we evaluate the effectiveness and robustness of world models for embodied agents?</i>
+                    <br>Unlike entertainment applications that emphasize visual appearance, which metrics best capture real utility for embodied agents—visual fidelity, physical accuracy, embodied task performance, or something else?
+                </li>
+                <li>
+                    <i>How can we incorporate more real-world knowledge (physics, semantics, dynamics) into generative models?</i>
+                    <br>Current video generation models are trained on diverse web-scale videos that encode real-world knowledge in visual form. Are these visual priors sufficient for physically accurate modeling? If not, how can models learn stronger physical priors from web data, and how can we support this process?
+                </li>
+                <li>
+                    <i>How do we transform a video generation model into a unified, scalable world model?</i>
+                    <br>How can we leverage web-scale video data and video generation models to build a unified, scalable world model for diverse tasks (e.g., motion generation, robotic policy learning, and 3d reconstruction)?
+                </li>
+            </ul>
+            <p>If you share these interests, please feel free to contact me by email!</p>
+
+            <h2>Selected Publications & Manuscripts</h2>
+            <p>Recent / <a href="#all-publications">By Year</a> &nbsp;&nbsp; * denotes equal contribution</p>
+
+            <h3>2025</h3>
+            <div class="publication-entry">
+                <div class="pub-left">
+                    <img src="https://world-in-world.github.io/media/overview.png" alt="World-in-World" class="w-175">
+                    <div class="pub-links">
+                        <a href="https://drive.google.com/uc?export=download&id=1gsl32ZSg83DgwrpB1O-k2YF27vMfTF7C" target="_blank" style="font-size: 0.9em;">[Paper]</a>
+                        <a href="https://github.com/World-In-World/world-in-world" target="_blank" style="font-size: 0.9em;">[Code]</a>
+                        <a href="https://world-in-world.github.io/" target="_blank" style="font-size: 0.9em;">[Website]</a>
                     </div>
+                </div>
+                <div>
+                    <div><b>World-in-World: World Models in a Closed-Loop World</b></div>
+                    <div><a style="color: #777;"><b>Jiahan Zhang*</b>, Muqing Jiang*, Nanru Dai, Taiming Lu, Arda Uzunoglu, Shunchi Zhang, Yana Wei, Jiahao Wang, Vishal M. Patel, Paul Pu Liang, Daniel Khashabi, Cheng Peng, Rama Chellappa, Tianmin Shu, Alan Yuille, Yilun Du, Jieneng Chen†</a></div>
+                    <div>Under review 2025</div>
+                    <div style="color:#b70505c0;">By grounding evaluation in embodied task success rather than visual metrics, World-in-World provides a principled yardstick and a comprehensive framework for assessing the real-world utility of generative world models in embodied settings.</div>
                 </div>
             </div>
-        </section>
 
-        
-
-        <section class="section container" id="projects">
-            <h2>Projects</h2>
-            <div class="meta" style="margin-bottom:8px;">Recent / <a href="#" onclick="return false;">By Year</a> &nbsp;&nbsp; <span style="color:#9ca3af;">* denotes equal contribution</span></div>
-            <h3 class="year">2025</h3>
-            <div class="project-list">
-                <article class="project-item">
-                    <div class="thumb"><img src="https://world-in-world.github.io/media/overview.png" alt="World-in-World thumbnail (placeholder)"></div>
-                    <div class="details">
-                        <div class="title"><a href="https://world-in-world.github.io/" target="_blank" rel="noreferrer">World-in-World: World Models in a Closed-Loop World</a></div>
-                        <div class="meta"><strong>Jiahan Zhang</strong>*, Muqing Jiang*, Nanru Dai, Taiming Lu, Arda Uzunoglu, Shunchi Zhang, Yana Wei, Jiahao Wang, Vishal M. Patel, Paul Pu Liang, Daniel Khashabi, Cheng Peng, Rama Chellappa, Tianmin Shu, Alan Yuille, Yilun Du, Jieneng Chen†</div>
-                        <div class="meta">Under review 2025</div>
-                        <div class="links">
-                            <a href="https://drive.google.com/uc?export=download&id=1gsl32ZSg83DgwrpB1O-k2YF27vMfTF7C" target="_blank" rel="noreferrer">Paper</a>
-                            <a href="https://github.com/World-In-World/world-in-world" target="_blank" rel="noreferrer">Code</a>
-                            <a href="https://world-in-world.github.io/" target="_blank" rel="noreferrer">Website</a>
-                        </div>
+            <div class="publication-entry">
+                <div class="pub-left">
+                    <img src="https://vanillaer.github.io/assets/media/PTA.png" alt="PTA" class="w-175">
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/pdf/2509.19994" target="_blank" style="font-size: 0.9em;">[Paper]</a>
                     </div>
-                </article>
-
-                <article class="project-item">
-                    <div class="thumb"><img src="assets/media/PTA.png" alt="Adversarial LMMs thumbnail (placeholder)"></div>
-                    <div class="details">
-                        <div class="title"><a href="https://arxiv.org/pdf/2509.19994" target="_blank" rel="noreferrer">Improving Generalizability and Undetectability for Targeted Adversarial Attacks on Multimodal Pre-trained Models</a></div>
-                        <div class="meta">Zhifang Zhang*, <strong>Jiahan Zhang</strong>*, Shengjie Zhou, Qi Wei, Shuo He, Feng Liu, Lei Feng†</div>
-                        <div class="meta">Under review 2025</div>
-                        <div class="links">
-                            <a href="https://arxiv.org/pdf/2509.19994" target="_blank" rel="noreferrer">Paper</a>
-                        </div>
-                    </div>
-                </article>
+                </div>
+                <div>
+                    <div><b>Improving Generalizability and Undetectability for Targeted Adversarial Attacks on Multimodal Pre-trained Models</b></div>
+                    <div><a style="color: #777;">Zhifang Zhang*, <b>Jiahan Zhang*</b>, Shengjie Zhou, Qi Wei, Shuo He, Feng Liu, Lei Feng†</a></div>
+                    <div>Under review 2025</div>
+                    <div style="color:#b70505c0;">We propose Proxy Targeted Attack (PTA), enabling adversarial examples to generalize to semantically similar targets while remaining on-manifold to evade anomaly detection, revealing a new vulnerability in large multimodal models.</div>
+                </div>
             </div>
 
-            <h3 class="year">2024</h3>
-            <div class="project-list">
-                <article class="project-item">
-                    <div class="thumb"><img src="assets/media/CPL_overview.png" alt="CPL ICML 2024 thumbnail (placeholder)"></div>
-                    <div class="details">
-                        <div class="title"><a href="https://arxiv.org/pdf/2406.10502" target="_blank" rel="noreferrer">Candidate Pseudolabel Learning: Enhancing Vision-Language Models by Prompt Tuning with Unlabeled Data</a></div>
-                        <div class="meta"><strong>Jiahan Zhang</strong>*, Qi Wei*, Feng Liu, Lei Feng†</div>
-                        <div class="meta">ICML 2024 · <strong>Oral (top 1.4%)</strong></div>
-                        <div class="links">
-                            <a href="https://arxiv.org/pdf/2406.10502" target="_blank" rel="noreferrer">Paper</a>
-                            <a href="https://github.com/vanillaer/CPL-ICML2024" target="_blank" rel="noreferrer">Code</a>
-                            <a href="https://icml.cc/virtual/2024/oral/35456" target="_blank" rel="noreferrer">Website</a>
-                        </div>
+            <h3>2024</h3>
+            <div class="publication-entry">
+                <div class="pub-left">
+                    <img src="https://vanillaer.github.io/assets/media/CPL_overview.png" alt="CPL overview" class="w-175">
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/pdf/2406.10502" target="_blank" style="font-size: 0.9em;">[Paper]</a>
+                        <a href="https://github.com/vanillaer/CPL-ICML2024" target="_blank" style="font-size: 0.9em;">[Code]</a>
+                        <a href="https://icml.cc/virtual/2024/oral/35456" target="_blank" style="font-size: 0.9em;">[Website]</a>
                     </div>
-                </article>
+                </div>
+                <div>
+                    <div><b>Candidate Pseudolabel Learning: Enhancing Vision-Language Models by Prompt Tuning with Unlabeled Data</b></div>
+                    <div><a style="color: #777;"><b>Jiahan Zhang*</b>, Qi Wei*, Feng Liu, Lei Feng†</a></div>
+                    <div>ICML 2024 · <b>Oral (top 1.4%)</b></div>
+                    <div style="color:#b70505c0;">Candidate Pseudolabel Learning (CPL) fine-tunes VLMs with limited labeled data using candidate label sets and partial-label losses, achieving consistent gains over hard pseudolabeling across nine datasets and three learning paradigms.</div>
+                </div>
+            </div>
 
-
-        </section>
-
-        <section class="section container" id="publications">
-            <h2>Publications</h2>
-            <ol class="pub-list">
-                <li class="pub-entry">
-                    <span class="badge">C.1</span>
-                    <div>
-                        <div class="pub-title"><a href="https://arxiv.org/pdf/2406.10502" target="_blank" rel="noreferrer">Candidate Pseudolabel Learning: Enhancing Vision-Language Models by Prompt Tuning with Unlabeled Data</a></div>
-                        <div class="pub-authors"><strong>Jiahan Zhang</strong>* , Qi Wei*, Feng Liu, Lei Feng† (2024)</div>
-                        <div class="pub-venue">ICML 2024 · <strong>Oral (top 1.4%)</strong></div>
-                    </div>
+            <h2 id="all-publications">All Publications & Manuscripts</h2>
+            <ol>
+                <li>
+                    <div><b>Candidate Pseudolabel Learning: Enhancing Vision-Language Models by Prompt Tuning with Unlabeled Data</b></div>
+                    <div><a style="color: #777;">Jiahan Zhang*, Qi Wei*, Feng Liu, Lei Feng† (2024)</a></div>
+                    <div>ICML 2024 · <b>Oral (top 1.4%)</b></div>
+                    <div><a href="https://arxiv.org/pdf/2406.10502" target="_blank" style="font-size: 0.9em;">[Paper]</a></div>
                 </li>
-                <li class="pub-entry">
-                    <span class="badge">C.2</span>
-                    <div>
-                        <div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/35449/37604" target="_blank" rel="noreferrer">Influence-Based Fair Selection for Sample-Discriminative Backdoor Attack</a></div>
-                        <div class="pub-authors">Qi Wei, Shuo He, <strong>Jiahan Zhang</strong>, Lei Feng, Bo An† (2024/2025)</div>
-                        <div class="pub-venue">AAAI 2025 · <strong>Oral</strong></div>
-                    </div>
+                <li>
+                    <div><b>Influence-Based Fair Selection for Sample-Discriminative Backdoor Attack</b></div>
+                    <div><a style="color: #777;">Qi Wei, Shuo He, <b>Jiahan Zhang</b>, Lei Feng, Bo An† (2024/2025)</a></div>
+                    <div>AAAI 2025 · <b>Oral</b></div>
+                    <div><a href="https://ojs.aaai.org/index.php/AAAI/article/view/35449/37604" target="_blank" style="font-size: 0.9em;">[Paper]</a></div>
                 </li>
-                <li class="pub-entry">
-                    <span class="badge">S.1</span>
-                    <div>
-                        <div class="pub-title"><a href="https://drive.google.com/uc?export=download&id=1gsl32ZSg83DgwrpB1O-k2YF27vMfTF7C" target="_blank" rel="noreferrer">World-in-World: World Models in a Closed-Loop World</a></div>
-                        <div class="pub-authors"><strong>Jiahan Zhang</strong>*, Muqing Jiang*, Nanru Dai, Taiming Lu, Arda Uzunoglu, Shunchi Zhang, Yana Wei, Jiahao Wang, Vishal M. Patel, Paul Pu Liang, Daniel Khashabi, Cheng Peng, Rama Chellappa, Tianmin Shu, Alan Yuille, Yilun Du, Jieneng Chen† (2025)</div>
-                        <div class="pub-venue">Under review</div>
-                    </div>
+                <li>
+                    <div><b>World-in-World: World Models in a Closed-Loop World</b></div>
+                    <div><a style="color: #777;">Jiahan Zhang*, Muqing Jiang*, Nanru Dai, Taiming Lu, Arda Uzunoglu, Shunchi Zhang, Yana Wei, Jiahao Wang, Vishal M. Patel, Paul Pu Liang, Daniel Khashabi, Cheng Peng, Rama Chellappa, Tianmin Shu, Alan Yuille, Yilun Du, Jieneng Chen† (2025)</a></div>
+                    <div>Under review</div>
+                    <div><a href="https://drive.google.com/uc?export=download&id=1gsl32ZSg83DgwrpB1O-k2YF27vMfTF7C" target="_blank" style="font-size: 0.9em;">[Paper]</a></div>
                 </li>
-                <li class="pub-entry">
-                    <span class="badge">S.2</span>
-                    <div>
-                        <div class="pub-title"><a href="https://arxiv.org/pdf/2509.19994" target="_blank" rel="noreferrer">Improving Generalizability and Undetectability for Targeted Adversarial Attacks on Multimodal Pre-trained Models</a></div>
-                        <div class="pub-authors">Zhifang Zhang*, <strong>Jiahan Zhang</strong>*, Shengjie Zhou, Qi Wei, Shuo He, Feng Liu, Lei Feng† (2025)</div>
-                        <div class="pub-venue">Under review</div>
-                    </div>
+                <li>
+                    <div><b>Improving Generalizability and Undetectability for Targeted Adversarial Attacks on Multimodal Pre-trained Models</b></div>
+                    <div><a style="color: #777;">Zhifang Zhang*, <b>Jiahan Zhang*</b>, Shengjie Zhou, Qi Wei, Shuo He, Feng Liu, Lei Feng† (2025)</a></div>
+                    <div>Under review</div>
+                    <div><a href="https://arxiv.org/pdf/2509.19994" target="_blank" style="font-size: 0.9em;">[Paper]</a></div>
                 </li>
-                <li class="pub-entry">
-                    <span class="badge">S.3</span>
-                    <div>
-                        <div class="pub-title"><a href="#" target="_blank" rel="noreferrer">EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory</a></div>
-                        <div class="pub-authors">Jiahao Wang, Luoxin Ye, TaiMing Lu, Junfei Xiao, <strong>Jiahan Zhang</strong>, Yuxiang Guo, Xijun Liu, Rama Chellappa, Cheng Peng, Alan Yuille, Jieneng Chen† (2025)</div>
-                        <div class="pub-venue">Under review</div>
-                    </div>
+                <li>
+                    <div><b>EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory</b></div>
+                    <div><a style="color: #777;">Jiahao Wang, Luoxin Ye, TaiMing Lu, Junfei Xiao, <b>Jiahan Zhang</b>, Yuxiang Guo, Xijun Liu, Rama Chellappa, Cheng Peng, Alan Yuille, Jieneng Chen† (2025)</a></div>
+                    <div>Under review</div>
+                    <div><a href="#" target="_blank" style="font-size: 0.9em;">[Paper]</a></div>
                 </li>
             </ol>
-        </section>
 
-        
-
-        <section class="section container" id="contact">
             <h2>Contact</h2>
-            <div class="contact">
-                <a class="btn primary" href="mailto:jhanzhang01@gmail.com">jhanzhang01@gmail.com</a>
-                <a class="btn" href="https://github.com/vanillaer" target="_blank" rel="noreferrer">GitHub</a>
-                <a class="btn" href="https://www.linkedin.com/in/jiahan-zhang-9039bb213/" target="_blank" rel="noreferrer">LinkedIn</a>
-                <a class="btn" href="https://scholar.google.com/citations?user=lUlcGxIAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
-            </div>
-        </section>
-    </main>
+            <p>
+                <a href="mailto:jhanzhang01@gmail.com">jhanzhang01@gmail.com</a>
+                &nbsp;·&nbsp;
+                <a href="https://github.com/vanillaer" target="_blank">GitHub</a>
+                &nbsp;·&nbsp;
+                <a href="https://www.linkedin.com/in/jiahan-zhang-9039bb213/" target="_blank">LinkedIn</a>
+                &nbsp;·&nbsp;
+                <a href="https://scholar.google.com/citations?user=lUlcGxIAAAAJ&hl=en" target="_blank">Google Scholar</a>
+            </p>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div>© <span id="year"></span> Jiahan (Han) Zhang</div>
-            <div class="footer-links">
-                <a href="#top">Back to top</a>
-            </div>
+            <p>© Jiahan (Han) Zhang · <a href="#jiahan-han-zhang">Back to top</a></p>
+
+        </div>
     </div>
-    </footer>
 
-    <script>
-    const yEl = document.getElementById('year');
-    if (yEl) { yEl.textContent = new Date().getFullYear(); }
-    </script>
 </body>
 </html>
-
